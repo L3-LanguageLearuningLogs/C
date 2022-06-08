@@ -21,6 +21,7 @@ int main(void)
     printf("// ----- 変数:num (アドレス[%p], 値[%d])\n", &num, num);
     printf("num:%d\n&num:%p\n*&num:%d\n", num, &num, *&num);
     printf("\n");
+    
     printf("// ----- ポインタ変数:pNum (アドレス[%p], 値[%d])\n", pNum, *pNum);
     printf("pNum:%p\n*pNum:%d\n&*pNum:%p\n", pNum, *pNum, &*pNum);
     printf("\n");
