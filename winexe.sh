@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/bash
 
 clear
 echo -n "file name > "
@@ -30,4 +30,4 @@ done
 
 # エラーが発生していなかった場合、実行ファイルを実行
 echo -e "\e[32mOK\e[m"
-./a.out
+./a.exe
