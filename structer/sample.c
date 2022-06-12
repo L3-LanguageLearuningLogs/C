@@ -1,10 +1,20 @@
 #include <stdio.h>
+#include<string.h>
+struct Student {
+    char name[10];
+    int class;
+};
 
 
-
-void main(void)
+int main(void)
 {
-    printf("Struct practice\n");
+    struct Student yoshida;
+    
+    
+    yoshida.class = 2;
+    strcpy(yoshida.name, "yoshida");
+    
+    printf("%s%d\n", yoshida.name, yoshida.class);
 
     return;
 }
