@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "Sample.h"
 
 int PrintIntPointer(int* pNum)
